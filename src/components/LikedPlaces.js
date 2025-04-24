@@ -2,13 +2,15 @@ import React, { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import PlaceCard from "./PlaceCard";
 
+const baseURL = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000';
+
 function LikedPlaces() {
   const likedItems = useSelector((state) => state.liked.likedItems);
   const [statesData, setStatesData] = useState(null);
 
   useEffect(() => {
     const fetchStates = async () => {
-      const res = await fetch("/api/places");
+      const res = await fetch(`${baseURL}/api/places`);
       const data = await res.json();
       setStatesData(data);
     };

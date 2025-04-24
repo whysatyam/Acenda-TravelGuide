@@ -1,9 +1,10 @@
 import PlaceInfo from "@/components/PlaceInfo";
 
 const toKebabCase = (str) => str.toLowerCase().replace(/\s+/g, "-");
+const baseURL = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000';
 
 export async function getStaticPaths() {
-  const res = await fetch("/api/places");
+  const res = await fetch(`${baseURL}/api/places`);
   const data = await res.json();
 
   const paths = [];
@@ -23,7 +24,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const res = await fetch("/api/places");
+  const res = await fetch(`${baseURL}/api/places`);
   const data = await res.json();
 
   let foundPlace = null;
