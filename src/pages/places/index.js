@@ -1,18 +1,6 @@
 import PlacesDirectory from "@/components/PlacesDirectory";
+import { data } from "@/pages/api/places";
 
-const baseURL = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000';
-
-export async function getStaticProps() {
-  const res = await fetch(`${baseURL}/api/places`);
-  const data = await res.json();
-
-  return {
-    props: {
-      data,
-    },
-  };
-}
-
-export default function Places({ data }) {
+export default function Places() {
   return <PlacesDirectory data={data} />;
 }
