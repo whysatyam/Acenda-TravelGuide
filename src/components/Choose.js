@@ -12,7 +12,7 @@ function Choose() {
             alt="cost"
             className="mx-auto mb-4 w-16 h-16"
           />
-          <h3 className="text-lg font-semibold text-black">Location's Cost</h3>
+          <h3 className="text-lg font-semibold text-black">Location&apos;s Cost</h3>
           <p className="text-black mt-2">
             We recommend locations based on Cost, Lower costs help you stay within budget
           </p>
@@ -23,7 +23,7 @@ function Choose() {
             alt="safety"
             className="mx-auto mb-4 w-16 h-16"
           />
-          <h3 className="text-lg font-semibold text-black">Location's Safety</h3>
+          <h3 className="text-lg font-semibold text-black">Location&apos;s Safety</h3>
           <p className="text-black mt-2">
             We recommend locations based on Safety, Your well being is our top priority
           </p>
@@ -34,7 +34,7 @@ function Choose() {
             alt="type"
             className="mx-auto mb-4 w-16 h-16"
           />
-          <h3 className="text-lg font-semibold text-black">Location's Type</h3>
+          <h3 className="text-lg font-semibold text-black">Location&apos;s Type</h3>
           <p className="text-black mt-2">
             We recommend locations based on Type, Find places that match preferences
           </p>
@@ -45,7 +45,7 @@ function Choose() {
             alt="crowd"
             className="mx-auto mb-4 w-16 h-16"
           />
-          <h3 className="text-lg font-semibold text-black">Location's Crowd</h3>
+          <h3 className="text-lg font-semibold text-black">Location&apos;s Crowd</h3>
           <p className="text-black mt-2">
             We recommend locations based on Crowd, Choose lively or peaceful spots
           </p>
