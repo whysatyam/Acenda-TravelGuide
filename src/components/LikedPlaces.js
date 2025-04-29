@@ -2,14 +2,24 @@ import React from "react";
 import { useSelector } from "react-redux";
 import PlaceCard from "./PlaceCard";
 import { data } from "@/pages/api/places";
+import Image from "next/image";
 
 function LikedPlaces() {
   const likedItems = useSelector((state) => state.liked.likedItems);
 
   return (
     <div className="w-full">
-      <div className="exploreTwo-bg w-full h-[300px] flex items-center justify-center">
-        <h1 className="text-white max-[390px]:text-4xl text-5xl font-bold uppercase text-center">
+      <div className="relative w-full h-[300px] flex items-center justify-center">
+        <Image
+          src="/images/exploreTwo.png"
+          alt="Favorites Background"
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover"
+          loading="eager"
+        />
+        <h1 className="text-white max-[390px]:text-4xl text-5xl font-bold uppercase text-center relative z-10">
           FAVOURITES
         </h1>
       </div>

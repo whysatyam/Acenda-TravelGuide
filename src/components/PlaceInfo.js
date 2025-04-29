@@ -39,7 +39,7 @@ function PlaceInfo({ place, state }) {
               alt={place?.name}
               className="w-full h-full object-cover"
             />
-            <div className="absolute top-2 right-2 z-10">
+            <div className="absolute top-0.5 right-1.5 z-10">
               <HeartLike place={place} />
             </div>
           </div>
@@ -67,11 +67,11 @@ function PlaceInfo({ place, state }) {
           </div>
         </div>
 
-        <div className="mt-12">
+        <div className="mt-6 sm:mt-10">
           <h2 className="text-3xl sm:text-4xl font-bold text-center mb-8 sm:mb-12">
             Other Popular Places in {state?.name}
           </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
+          <div className="mt-[-4px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
             {otherPlaces.map((otherPlace) => (
               <div key={otherPlace.name} className="w-full">
                 <PlaceCard place={otherPlace} state={state} />

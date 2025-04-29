@@ -1,26 +1,5 @@
 @import "tailwindcss";
 
-.home-bg {
-  background-image: url("/images/backgroundtop.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.explore-bg {
-  background-image: url("/images/explore.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.exploreTwo-bg {
-  background-image: url("/images/exploreTwo.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 @keyframes scroll {
   from {
     transform: translateX(0);

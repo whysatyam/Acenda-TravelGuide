@@ -2,6 +2,7 @@ import React, { useEffect, useState, useMemo, useRef } from "react";
 import Select from "react-select";
 import Spinner from "./Spinner";
 import PlaceCard from "./PlaceCard";
+import Image from "next/image";
 
 const chunkArray = (arr, size) => {
   const result = [];
@@ -154,8 +155,17 @@ function PlacesDirectory({ data }) {
 
   return (
     <div className="relative w-full">
-      <div className="exploreTwo-bg w-full h-[300px] flex items-center justify-center relative">
-        <h1 className="text-white max-[390px]:text-4xl text-5xl font-bold uppercase text-center">
+      <div className="relative w-full h-[300px] flex items-center justify-center">
+        <Image
+          src="/images/exploreTwo.png"
+          alt="Explore Background"
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover"
+          loading="eager"
+        />
+        <h1 className="text-white max-[390px]:text-4xl text-5xl font-bold uppercase text-center relative z-10">
           DESTINATIONS
         </h1>
       </div>
