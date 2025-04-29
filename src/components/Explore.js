@@ -6,7 +6,7 @@ function Explore() {
     <div className="relative min-h-screen flex flex-col items-center justify-center text-white text-center px-6 sm:px-10 py-10 explore-bg">
       <div className="absolute inset-0 bg-black/50"></div>
       <div className="relative z-10 w-full max-w-5xl">
-        <h1 className="text-5xl font-bold">EXPLORE GOA</h1>
+        <h1 className="text-3xl sm:text-4xl font-bold">EXPLORE GOA</h1>
         <p className="mt-4">
           Stunning beaches vibrant nightlife from scenic sunsets to lively
           markets it offers endless adventures

@@ -18,7 +18,7 @@ export default function Navbar() {
     <div className="absolute top-0 left-0 w-full z-50 flex justify-between items-center font-sans pt-2 pb-2 bg-transparent">
       <Link
         href="/"
-        className="p-2 md:pl-10 font-bold text-xl text-white cursor-pointer"
+        className="p-2 ml-1 md:pl-10 font-bold text-xl text-white cursor-pointer"
       >
         ACENDA
       </Link>
@@ -37,7 +37,7 @@ export default function Navbar() {
         className="sm:hidden p-2 cursor-pointer text-white"
         onClick={() => setMenuOpen(true)}
       >
-        <Menu size={28} />
+        <Menu size={26} />
       </div>
       <div
         className={`fixed top-0 left-0 h-full w-64 bg-black text-white z-50 transform ${

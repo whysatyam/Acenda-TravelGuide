@@ -27,7 +27,7 @@ const testimonials = [
 function Testimonials() {
   return (
     <div className="bg-black py-16 px-6 pt-16 -mt-8">
-      <h2 className="text-white text-center text-3xl font-bold mb-18">
+      <h2 className="text-white text-center text-2xl sm:text-3xl font-bold mb-18">
         TESTIMONIALS
       </h2>
 

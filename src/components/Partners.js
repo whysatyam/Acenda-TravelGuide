@@ -11,8 +11,8 @@ const logos = [...brands, ...brands, ...brands];
 
 function Partners() {
   return (
-    <div className="overflow-hidden bg-white pt-4 py-10">
-      <h2 className="text-center text-3xl font-bold mb-6">OUR PARTNERS</h2>
+    <div className="overflow-hidden bg-white pt-4 mt-[-30px] py-10">
+      <h2 className="text-center text-2xl sm:text-3xl font-bold mb-6">OUR PARTNERS</h2>
       <div className="relative w-full pt-5">
         <div className="flex items-center whitespace-nowrap animate-scroll">
           {logos.map((logo, index) => (
