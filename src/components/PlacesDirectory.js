@@ -12,14 +12,18 @@ const chunkArray = (arr, size) => {
 };
 
 const FilterSelect = ({ options, onChange, placeholder, isMulti = false }) => (
-  <div className="p-2 lg:p-4 bg-white rounded-lg">
+  <div className="p-2 lg:p-4 bg-white rounded-lg relative z-30">
     <Select
       options={options}
       onChange={onChange}
       placeholder={placeholder}
       isMulti={isMulti}
       isClearable={!isMulti}
-      className="mt-1 z-20"
+      className="mt-1"
+      menuPortalTarget={document.body}
+      styles={{
+        menuPortal: base => ({ ...base, zIndex: 9999 })
+      }}
     />
   </div>
 );

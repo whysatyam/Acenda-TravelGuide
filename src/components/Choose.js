@@ -2,7 +2,7 @@ import React from "react";
 
 function Choose() {
   return (
-    <div className="text-center py-10 mt-25">
+    <div className="text-center py-10 mt-10 [@media(min-width:767px)]:mt-18">
       <h2 className="text-3xl font-bold text-black mb-5">WHY CHOOSE US?</h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-6 lg:px-20">
