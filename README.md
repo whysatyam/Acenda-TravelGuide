@@ -10,13 +10,13 @@ A modern travel website that helps users discover and explore beautiful places a
 
 -  **Smart Filtering**: Filter places based on:
 
-  Type (City, Mountains, Beaches)
+     Type (City, Mountains, Beaches)
 
-  Cost (Low to Medium, Medium to High)
+     Cost (Low to Medium, Medium to High)
 
-  Crowd (Quiet, Moderate, Crowded)
+     Crowd (Quiet, Moderate, Crowded)
 
-  Safety (Safe to Moderate, Moderate to Risky)
+     Safety (Safe to Moderate, Moderate to Risky)
 
 -  **Favorites System**: Save your favorite places for quick access
 
@@ -93,6 +93,6 @@ Contributions are welcome! Please feel free to submit a Pull Request
 
 ## Acknowledgments
 
-- Icons from Lucide React and React Icons
+Icons from Lucide React and React Icons
 
-- Images provided by Unsplash are stored in Cloudinary
+Images provided by Unsplash are stored in Cloudinary
