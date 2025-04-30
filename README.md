@@ -1,40 +1,93 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# ACENDA - Travel and Explore
 
-## Getting Started
+A modern travel website that helps users discover and explore beautiful places across India. Acenda provides detailed information about various destinations, including their type, cost, safety and crowd levels
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Features
+  
+
+-  **Interactive Place Directory**: Browse through a comprehensive list of places across India
+
+-  **Smart Filtering**: Filter places based on:
+
+- Type (City, Mountains, Beaches)
+
+- Cost (Low to Medium, Medium to High)
+
+- Crowd (Quiet, Moderate, Crowded)
+
+- Safety (Safe to Moderate, Moderate to Risky)
+
+-  **Favorites System**: Save your favorite places for quick access
+
+-  **Detailed Place Information**: View comprehensive details about each destination
+
+-  **Responsive Design**: Fully responsive layout that works on all devices
+
+-  **Modern UI**: Clean user interface with smooth animations
+
+  
+## Tech Stack
+
+  
+-  **Frontend**: Next.js, React
+
+-  **Styling**: Tailwind CSS
+
+-  **State Management**: Redux Toolkit
+
+-  **Icons**: Lucide React, React Icons
+
+-  **Notifications**: React Hot Toast
+
+-  **Drop Down**: React Select
+
+ -  **Lazy loading**: React Intersection Observer
+
+  
+## Project Structure
+
 ```
+├── public      # Static assets
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+├── redux       # Redux store and slices
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+src/
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+├── components  # Reusable UI components
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+├── styles      # Global styles
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+├── pages       # Next.js pages
 
-## Learn More
+└── api         # Local API
+```  
 
-To learn more about Next.js, take a look at the following resources:
+## Contributing
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+Contributions are welcome! Please feel free to submit a Pull Request
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Acknowledgments
 
-## Deploy on Vercel
+- Icons from Lucide React and React Icons
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Images provided by Unsplash are stored in Cloudinary
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+## Visual Overview
+
+### Home Page
+![homepage01](./overview/acenda-home01.png)
+![homepage02](./overview/acenda-home02.png)
+![homepage03](./overview/acenda-home03.png)
+![homepage04](./overview/acenda-home04.png)
+
+### Destinations Page
+![placespage01](./overview/acenda-places01.png)
+![placespage02](./overview/acenda-places02.png)
+
+### Favourites Page
+![favpage](./overview/acenda-favpage.png)
+
+### Detailed Place Info Page
+![infopage01](./overview/acenda-dynamic01.png)
+![infopage02](./overview/acenda-dynamic02.png)
