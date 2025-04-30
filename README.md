@@ -63,22 +63,15 @@ src/
 └── api         # Local API
 ```  
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request
-
-## Acknowledgments
-
-- Icons from Lucide React and React Icons
-
-- Images provided by Unsplash are stored in Cloudinary
-
 ## Visual Overview
 
 ### Home Page
 ![homepage01](./overview/acenda-home01.png)
+
 ![homepage02](./overview/acenda-home02.png)
+
 ![homepage03](./overview/acenda-home03.png)
+
 ![homepage04](./overview/acenda-home04.png)
 
 ### Destinations Page
@@ -91,3 +84,13 @@ Contributions are welcome! Please feel free to submit a Pull Request
 ### Detailed Place Info Page
 ![infopage01](./overview/acenda-dynamic01.png)
 ![infopage02](./overview/acenda-dynamic02.png)
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request
+
+## Acknowledgments
+
+- Icons from Lucide React and React Icons
+
+- Images provided by Unsplash are stored in Cloudinary
